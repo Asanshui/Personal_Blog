@@ -1,0 +1,23 @@
+train: D:\YOLOv8\VOCdevkit\train\images  # train images (relative to 'path') 128 images
+val: D:\YOLOv8\VOCdevkit\val\images  # val images (relative to 'path') 128 images
+test: D:\YOLOv8\VOCdevkit\test\images
+#train: D:\YOLOv8\Obstacle-detection-system\img
+#val:
+#test:
+
+nc: 15
+
+#               “停车标志”、“人”、“杆”、“卡车”，
+#               “自行车”、“汽车”、“狗”、“反光路障”，
+#               垃圾桶、公共汽车
+#               “消防栓”、“警示柱”，
+#               “摩托车”、“三轮车”、“球形路障”
+
+# Classes
+names: ['stop_sign', 'person', 'bicycle', 'bus',
+        'truck', 'car', 'motorbike', 'reflective_cone',
+        'ash_can', 'warning_column',
+        'spherical_roadblock', 'pole',
+        'dog', 'tricycle', 'fire_hydrant']
+
+
